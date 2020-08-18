@@ -1,0 +1,12 @@
+****** list of global vars and description
+
+description: PrintAt
+Location line 20000
+pa$ = text to be printed
+p1% = X 
+p2% = Y location
+p3% = FG color
+p4% = BG color
+
+
+

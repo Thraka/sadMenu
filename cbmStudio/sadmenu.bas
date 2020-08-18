@@ -1,3 +1,3 @@
-10 REM **** And so it begins
-20 ? "dad"
+10 rem lets go!
+20 PRINT"{clear}": print"{home}"
 30 

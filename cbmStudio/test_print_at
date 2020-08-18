@@ -1,0 +1,14 @@
+201 PRINT"{clear}": print"{home}";
+221 p1%=10:p2%=2
+222 p1%=INT(p1%):p2%=INT(p2%)
+!-232 ca = asc("a") - 64
+242 pa$="dadttqsajhkgda"
+252 gosub 500
+262 end
+499 rem --- print to screen at x,y
+500 for x = 1 to len(pa$) 
+510 ca = (asc(mid$(pa$,x,1)) - 64)
+533 poke 1024+p1%*40+p2%, ca
+543 p2%=p2%+1
+548 next
+554 return
