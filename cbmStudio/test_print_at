@@ -8,11 +8,24 @@
 272 rem
 282 rem
 292 rem
-20000 rem --- print to screen at x,y
-20010 for x = 1 to len(pa$) 
-20020 ca = (asc(mid$(pa$,x,1)) - 64)
-20025 p1=INT(p1):p2=INT(p2)
-20030 if ca <> -32 then poke 1024+p1*40+p2, ca
-20040 p2=p2+1
-20050 next
-20060 return
+302 
+312 
+322 
+332 REDO, SET CuSoR LOCATION THEN NORMAL PRINT
+342 
+347 faster!!!!!!!!!!!!!
+352 
+362 
+20000 rem --- print to screen at row, col
+20005 POKE214,p1:PRINT:POKE211,p2:PRINT pa$
+20009 return
+!-==============================================
+!-20008 return
+!-20010 for x = 1 to len(pa$) 
+!-20020 ca = (asc(mid$(pa$,x,1)) - 64)
+!-20025 p1=INT(p1):p2=INT(p2)
+!-20030 if ca <> -32 then poke 1024+p1*40+p2, ca
+!-20040 p2=p2+1
+!-20050 next
+!-20060 return
+!-==============================================
