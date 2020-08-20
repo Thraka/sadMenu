@@ -1,12 +1,26 @@
 ****** list of global vars and description
 
+
+description: generic
+ft = flag for 1st time init
+db$ = debug message string
+
+
 description: PrintAt
 Location line 20000
 pa$ = text to be printed
-p1% = X 
-p2% = Y location
-p3% = FG color
-p4% = BG color
+p1 = Row 
+p2 = Col
+p5 = if 1 then print highlighted text
 
 
+description Print Menu Item
+location line 19000
+mt = total items
+mn = current index of select item 
+mi$() array of items
+md = direction - if 1 then going up
 
+
+description: Draw Screen
+Location line 21000
