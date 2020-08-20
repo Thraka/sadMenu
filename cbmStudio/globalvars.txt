@@ -4,7 +4,9 @@
 description: generic
 ft = flag for 1st time init
 db$ = debug message string
-
+ky = keyboard asc input
+dv = current drive #
+x  =  for next var to use
 
 description: PrintAt
 Location line 20000
