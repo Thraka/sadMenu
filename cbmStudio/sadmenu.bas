@@ -22,7 +22,8 @@
 115 gosub 17500 : rem load 1st time menu
 !-120 db$ = "len of mi$ = " + len(mn$) : gosub 16000 : rem DEBUG
 195 gosub 16500 : rem print drive info
-200 get k$ : if k$ = "" then 200
+199  if peek(198)=0 then 199 
+200 get k$ :rem if k$ = "" then 200
 205 rem print asc(k$)
 208 ky = asc(k$)
 210 if ky = 17 then md=0: gosub 19000 : rem down arrow
